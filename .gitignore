@@ -1,8 +1,11 @@
 __pycache__/
 *.py[cod]
 /output/
-/input/
+# input 폴더 안의 모든 것을 무시하되 (폴더 접근은 허용)
+/input/*
 !/input/example.png
+!/input/chair_in_lab.png
+!/input/low_angle_chair.png
 /models/
 /temp/
 /custom_nodes/
